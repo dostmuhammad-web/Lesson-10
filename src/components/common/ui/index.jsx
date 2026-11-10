@@ -1,6 +1,6 @@
 // src/components/common/ui/index.jsx
 import React, { useState, useEffect, useRef } from 'react';
-import { Search, X, Check, AlertTriangle, Info, AlertCircle, ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
+import { Search, X, Check, AlertTriangle, Info, AlertCircle, ChevronLeft, ChevronRight, } from 'lucide-react';
 
 // --- BUTTON ---
 export const Button = ({
@@ -624,7 +624,7 @@ export const DropdownItem = ({
   children,
   onClick,
   variant = 'normal',
-  className = '',
+  className ='',
 }) => {
   const getStyle = () => {
     if (variant === 'danger') return { color: 'var(--color-danger)' };
